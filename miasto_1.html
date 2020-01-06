@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">INFO</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">WYCIECZKI</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">KONTAKT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
+        <a href="#" class="w3-bar-item w3-button">Extras</a>
+        <a href="#" class="w3-bar-item w3-button">Media</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">INFO</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">WYCIECZKI</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">KONTAKT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="londyn1.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>LONDYN</h3>
+      <p><b>Widoki zatykajace dech w piersi!</b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="londyn2.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>LONDYN</h3>
+      <p><b>Niezapomniane wspomnienia!</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="londyn3.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>LONDYN</h3>
+      <p><b>Najlepszy wybór w super cenie!</b></p>    
+    </div>
+  </div>
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">LONDYN</h2>
+    <p class="w3-opacity"><i>We love travel!</i></p>
+	<p class ="w3-justify">Stworzona została fikcyjna strona dla podróżników. Wszystkie przedstawione na stronie informacje sa fikcyjne. Strona ma za zadanie przedstawic sposob tworzenia stron internetowych. Aczkolwiek lodyn to ciekawe miejsce. Pochodzenie nazwy miasta nie jest jasne i jest przedmiotem wielu teorii i domysłów.Według jednej z legend nazwa miałaby pochodzić od króla Luda, mitycznego władcy celtyckiego plemienia Trinovantes, który miał założyć miasto w I wieku p.n.e. lub znacząco rozbudować istniejące miasto. Po jego śmierci osadę nazwano Kaerlud lub Kaerlundein (miasto Luda), która to nazwa miała zostać przekształcona w rzymskie Londinium. W 1998 roku Richard Coates zaproponował pochodzenie nazwy od przedceltyckiego staroeuropejskiego słowa (p)lowonida, oznaczającego rzekę zbyt szeroką, by pokonać ją w bród, nawiązującego do Tamizy. Nowsze badania wiążą nazwę z praindoeuropejskim *lendh, oznaczającym „tonąć, topić”, oraz członem *-injo- lub *-onjo-, używanym do tworzenia nazw miejsc. Nazwa miałaby więc oznaczać „miejsce, w którym występują powodzie”. Inne teorie wiążą nazwę Londyn z celtyckim słowem mającym dziś postać llon lub lon, oznaczającym jedzenie, posiłek lub miejsce posiłku, oraz din, czyli „miły, budzący uczucie akceptacji”, a cała nazwa miałaby oznaczać miejsce obfite w jedzenie, na przykład dużą ilość ryb przy ujściu rzeki</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>Big Ben</p>
+        <img src="londyn4.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Budki telefoniczne</p>
+        <img src="londyn5.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Autobusy</p>
+        <img src="londyn6.jpg" class="w3-round" alt="Random Name" style="width:60%">
+      </div>
+    </div>
+  </div>
+
+  <!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">TERMINY WYCZIECZEK</h2>
+      <p class="w3-opacity w3-center"><i>PAMIĘTAJ O REZERWACJI PODROZY</i></p><br>
+
+      <ul class="w3-ul w3-border w3-white w3-text-grey">
+        <li class="w3-padding">Styczeń <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+        <li class="w3-padding">Luty <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+        <li class="w3-padding">Marzec <span class="w3-badge w3-right w3-margin-right">DOSTEPNE!</span></li>
+      </ul>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-container w3-white">
+            <p><b>LONDYN -> Styczeń</b></p>
+			<p class ="w3-opacity">Piatek 13 Stycznia 2019 - Piatek 20 Stycznia 2019</p>
+            <p>Przed zakupem zastanów się dwa razy! Zakupione bilety nie podlegaja zwrotom.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Kup bilet.</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-container w3-white">
+            <p><b>LONDYN -> Luty</b></p>
+            <p class="w3-opacity">Piatek 11 Luty 2019 - Piatek 18 Luty 2019</p>
+            <p>Przed zakupem zastanów się dwa razy! Zakupione bilety nie podlegaja zwrotom.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-container w3-white">
+            <p><b>LONDYN -> Marzec</b></p>
+            <p class="w3-opacity">Piatek 20 Marzec 2019 - Piatek 27 Marzec 2019</p>
+            <p>Przed zakupem zastanów się dwa razy! Zakupione bilety nie podlegaja zwrotom.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ticket Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="How many?">
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">KONTAKT</h2>
+    <p class="w3-opacity w3-center"><i>Podoba się? Zostaw komentarz!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Gdańsk, PL<br>
+        <i class="fa fa-phone" style="width:30px"></i> Tel: +48 698 003 443<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: s.yeu@mail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Imie" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Wiadomosc" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">WYŚLI</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
